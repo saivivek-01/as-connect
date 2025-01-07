@@ -1,0 +1,70 @@
+#aboutus{
+    padding-top:5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: flex;
+}
+#aboutus h1{
+    font-size: 25px;
+    color:cadetblue;
+}
+#aboutus pre{
+    font-family:'Courier New', monospace;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.events{
+    margin-top:5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.news-update{
+    background-color: white;
+    border:2px solid rgb(187, 184, 184);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+.news-update a{
+    cursor:  pointer;
+    text-decoration: none;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+.news-update:hover {
+    background-color:rgb(235, 234, 234);
+    cursor:  pointer;
+}
+.event-update{
+    background-color: white;
+    border-top:2px solid rgb(187, 184, 184);
+    padding: 1%;
+}
+.event-update a{
+    cursor:  pointer;
+    text-decoration: none;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+.event-update:hover {
+    background-color:rgb(235, 234, 234);
+    cursor:  pointer;
+}
+.news h1{
+    color: green;
+}
+.event h1{
+    color:green;
+}
+.image img{
+    margin-top: 50%;
+    background-color: white;
+}

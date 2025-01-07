@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    height: 80em;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+     /*background: rgba(113, 99, 186, 255); */
+    background: rgb(116, 178, 3);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 16px;
+} 
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 1em;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+}
+.menu li:hover, .active{
+    background: #e0e0e058;
+    
+}
+.menu a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 1rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a i{
+    font-size: 1.2rem;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/* *** main body section *** */
+.main--content{
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    padding: 1rem;
+}
+.header--wrapper img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.header--title{
+     /*color: rgba(113, 99, 186, 255); */
+    color: rgb(116, 178, 3);
+}
+.profile--section{
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    height: 70em;
+    width: 100%;
+}
+.profile{
+    background: rgb(252, 255, 252);
+    padding: 1em 0;
+    border-radius: 20px;
+    display: flex;
+    height: 70em;
+     /*background: red; */
+    justify-content: center;
+    align-items: left;
+     text-align: center; 
+    width: 100%;
+}
+.form-group{
+    margin: 1em 0em;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /*background: blue; */
+    font-size: 20px;
+}
+.form-group input{
+    width: 100%;
+}
+.form-group label{
+    width: 50%;
+}
+.form-group-email{
+    margin: 1em 0em;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.form-group-email label{
+    font-size: 20px;
+    width: 50%;
+}
+.emailText{
+    width: 100%;
+    background: #fff;
+    padding: .2em;
+    height: 4em;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px rgb(215, 214, 214) solid;
+}
+.domainText{
+    width: 100%;
+    background: #fff;
+    padding: .2em;
+    height: 16em;
+    font-family: monospace;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px rgb(215, 214, 214) solid;
+    margin-top: 15em;
+}
+.btn-primary{
+    width: 20%;
+    text-align: center;
+}
+.button{
+    margin-top: 15em;
+    background: transparent;
+    text-align: center;
+}

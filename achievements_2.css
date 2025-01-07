@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a-title{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(12, 68, 70);
+}
+body{
+    background-image:linear-gradient(to left , rgb(204, 234, 234), cadetblue);
+}
+.main{
+    margin-left:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    
+}
+.achievemets{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.achievement{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+    padding:5%;
+    background: #d9d8d8;
+}
+.img-content{
+    display:flex;
+    margin-bottom: 1%;
+}
+.i-content img{
+    border-radius: 50%;
+    height: 170px;
+    border: 1px solid rgb(209, 208, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 3px 8px;
+}
+.head-content{
+    margin-left: 50px;
+    margin-top:6%;
+    color:green;
+}
+.content{
+    margin-top: 0%;
+    font-size: 20px;
+}

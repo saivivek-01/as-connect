@@ -1,0 +1,47 @@
+.login-content{
+    position: absolute;
+    background-color: white; 
+    margin-left: 63%;  
+    margin-top: 4%;
+    display: none;
+}
+.login-content a{
+    float: none;
+    color:black;
+    padding:16px 43px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.login:hover .login-content{
+   display: block;
+}
+.login-content a:hover{
+    background-color:rgb(195, 243, 245);
+    color:green;
+}
+.more-content{
+    position: absolute;
+    background-color: white; 
+    margin-left: 82.5%;  
+    margin-top: 4%;
+    display: none;
+}
+.more-content a{
+    float: none;
+    color:black;
+    padding:16px 43px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.more:hover .more-content{
+   display: block;
+}
+.more-content a:hover{
+    background-color:rgb(195, 243, 245);
+    color:green;
+}
+header{
+    position: sticky;
+}

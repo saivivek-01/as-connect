@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+     /*background: rgba(113, 99, 186, 255); */
+    /* background: rgb(204,114,11); */
+    background: rgb(248, 82, 82);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 16px;
+} 
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 1em;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+}
+.menu li:hover, .active{
+    background: #e0e0e058;
+    
+}
+.menu a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: .9rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a i{
+    font-size: 1.2rem;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* *** main body section *** */
+.main--content{
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.header--wrapper img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.header--title{
+     /*color: rgba(113, 99, 186, 255); */
+    color: rgb(204,114,11);
+}
+
+.profile--section{
+    display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh; 
+   flex-direction: column;
+   /* height: 70em; */
+   width: 100%;
+}
+.profile{
+   background: rgb(252, 255, 252);
+   padding: 5em 0em;
+   border-radius: 20px;
+   display: flex;
+   height: 70em;
+    /*background: red; */
+   justify-content: center;
+   align-items: left;
+    text-align: center; 
+   width: 100%;
+}
+.profile form{
+    width: 80%;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5em 0em;
+}
+.table label{
+    width: 40%;
+    /* background: red; */
+}
+.table input{
+    margin: 0em 2em;
+    /* background: blue; */
+}
+.table button{
+    width: 15em;
+    /* background: yellow; */
+}
+.inputs{
+    width: 100%;
+}
+.fields{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    margin: .5em;
+    width: 95%;
+}
+.fields label{
+    width: 40%;
+    text-align: center;
+}
+.fields input{
+    width: 100%;
+}

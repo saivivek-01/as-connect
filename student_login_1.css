@@ -1,0 +1,94 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.login-head{
+  width: 100%;
+  text-align: center;
+    font-size: 35px;
+    color:blueviolet;
+}
+.alumniTitle{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    height: 100%;
+}
+.alumniTitle img{
+    box-shadow: rgba(0,0,0,0.25) 0px 14px 28px, rgba(0,0,0,0.22) 0px 10px 10px;
+}
+.Student
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-image: linear-gradient(to bottom right,rgb(182, 183, 228), white);
+    width: 100%;
+    height: 100vh;
+}
+
+.studentLogin{
+    /* background: blue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 75px;
+    padding-right: 65px;
+    box-shadow: rgba(0,0,0,0.25) 0px 14px 28px, rgba(0,0,0,0.22) 0px 10px 10px;
+}
+.student_login_button{
+    /* margin-left: 45%; */
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    color:white;
+    border: 1px solid black;
+    background-color: rgb(22, 241, 22);
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="text"]{
+    border-style: outset;
+    border-radius: 40px;
+    /* margin-left:15px; */
+    padding: 10px;
+    width:100%;
+}
+input[type="password"]{
+    border-style: outset;
+    border-radius: 40px;
+    /* margin-left:15px; */
+    padding: 10px;
+    width:100%;
+}
+.emaillabel,.passwordlabel{
+    margin-top:20px;
+    font-size: 23px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 1px;
+}
+.student_forget , .student_register{
+    p{
+        margin-top: 1em;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(67, 6, 67);
+        text-transform: uppercase;
+    }
+}

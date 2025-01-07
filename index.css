@@ -1,0 +1,348 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.HomePage{
+    padding: 1em;
+    color:#000;
+    background:#000;
+    height: 60em;
+    width: 100%;
+    background-image: url("Images/back-ground-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.HomePage h1{
+    margin: 0.5em;
+    font-size: 40px;
+    font-weight: 1600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Headder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.college{
+    width: 100%;
+    text-align: right;
+    /* background-color: lightgoldenrodyellow; */
+    background: transparent;
+    
+}
+.college img{
+   color: #000;
+   height: 8em;
+   background-image: url("Images/black-fabric-texture.png");
+   background-position: center;
+   background-size: cover;
+   border-radius: 30px;
+    padding: 1em;
+}
+
+.Container{
+    padding: 1.5em;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.main_img{
+    margin-right: 2em;
+    border-radius: 40px;
+    height: 60%;
+    float: left;
+    box-shadow: #1d1d1d 0px 19px 40px 0px; 
+}
+.loginIcons{
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.loginIcons img{
+    width: 8em;
+    height: 8em;
+    margin-right: 1em;
+}
+.loginIcons h3{
+    color: #eee;
+    font-size: 32px;
+}
+#pic_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/button_background_2.jpeg");
+    background-repeat:round;
+    border-radius: 40px;
+    padding: 1em;
+    margin: 1.5em 0.5em;
+    transition: 0.5s;
+}
+.divButton a{
+    text-decoration: none;
+}
+#pic_text:hover{
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 25px;
+    box-shadow: #323232 0px 10px 17px 0px;
+}
+.Alumni{
+    height: 60em;
+    background: url('Images/alumni_background.jpg') no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 2em;
+}
+.alumniTitle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height:10em;
+    background-color: transparent;
+}
+.alumniTitle h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+.alumniTitle img{
+    height: 8em;
+    border-radius: 40px;
+    margin-right: 2em;
+    box-shadow: #323232 0px 10px 17px 0px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    background: transparent;
+    /* background-image: url("Images/alumni_backgorund.jpeg"); */
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+.inputbox label{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center  
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3em;
+    /* text-align: right; */
+ }
+.forget label a:hover{
+    text-decoration: underline;
+}
+.alumni_button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: .5em;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.Student{
+    height: 60em;
+    background-image: url("Images/student_background_img.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 2em;
+}
+.studentLogin{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: calc(100% - 11em);
+}
+.login-form{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: #eee 2px solid;
+    padding: 2em;
+    border-radius: 30px;
+    width: 40%;
+    /* height: 750px; */
+    /* width: 350px; */
+   top: 50%;
+    left: 50%; 
+    /* transform: translate(-50%, -50%); */
+    /* position: absolute; */
+   color: #fff;
+}
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+/* .student_forget{
+    margin-top: 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student_forget label a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3em;
+    font-size: 20px
+    text-align: right;
+}
+.student_forget label a:hover{
+    text-decoration: underline;
+} */
+/* button{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px;
+    padding: 10px 15px;
+    padding: 1em;
+    width: 50%;
+    border-radius: 0px;
+    text-align: left;
+    justify-content: center;
+} */
+ .student_login{
+    width: 40%;
+    height: 2em;
+    background: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    /* padding: 1em; */
+    margin-top: 1em;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.student_forget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student_register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+}
+.student_register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: .5em;
+}
+.student_register p a:hover{
+    text-decoration: underline;
+} 

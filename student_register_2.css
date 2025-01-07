@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("Images/odessy.jpg");
+    /* background-image: url("Images/background-image.png"); */
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.student_container form{
+    padding: 1em;
+}
+.student_container{
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid #eee;
+    border-radius: 20px;
+    color: #fff;
+    margin: 3em 0em;
+}
+.student_container h1{
+    margin-top: .5em;
+    font-family: cursive;
+    font-size: 50px;
+}
+#inputboxing{
+    margin: 1em;
+    text-align: left;
+}
+.student_container label{
+    margin-right: 1em;
+    font-size: 18px;
+}
+.student_container input{
+    width: 50%;
+    height: 3em;
+    border-radius: 25px;
+    border: none;
+    padding: 1em;
+    font-size: .80rem;
+}
+.registerButton{
+    color: #fff;
+    width: 40%;
+    height: 2em;
+    margin-bottom: 1em;
+    border-radius: 30px;
+    background: rgb(2,167,176);
+    /* background: red; */
+    cursor: pointer;
+    font-size: 19px;
+    border: none;
+    transition: .5s;
+}
+.registerButton:hover{
+    background: rgb(14, 238, 238);
+    color: #000;
+    transition: 0.5s;
+    box-shadow: #323232 0px 10px 14px 0px;
+}
