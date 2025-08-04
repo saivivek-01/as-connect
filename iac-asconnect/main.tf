@@ -65,7 +65,7 @@ resource "google_compute_instance" "asconnect_vm" {
   tags = ["http-server", "https-server"]
 
   service_account {
-    email  = "saivivekmallavalli@gmail.com" # or remove this block to use default
+    email  = "385748708689-compute@developer.gserviceaccount.com" # or remove this block to use default
     scopes = ["cloud-platform"]
   }
 }
