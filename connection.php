@@ -1,8 +1,8 @@
 <?php
-    $hostName="localhost";
-    $dbUser="root";
-    $dbPassword="";
-    $dbName="alumni_register";
+    $hostName="db";
+    $dbUser="user";
+    $dbPassword="pass";
+    $dbName="asconnect_db";
     $conn = mysqli_connect($hostName, $dbUser, $dbPassword, $dbName);
     if(!$conn){
         die("someting went wrong;");
