@@ -37,16 +37,6 @@ It was inspired by professional alumni networks (like IITs and Ivy League platfo
 
 ---
 
-## 🚀 Deployment
-
-### Using Terraform
-You can provision a clean Debian VM with firewall rules and static IP using the provided Terraform script (see `infra/` directory).
-
-```bash
-cd infra/
-terraform init
-terraform apply```
-
 ## 📂 Project Structure
 asconnect/
 ├── infra/               # Terraform scripts for VM provisioning
@@ -66,7 +56,7 @@ This project is more than just an alumni portal — it demonstrates:
 Ideal for demonstrating DevOps readiness, cloud independence, and real-world infrastructure understanding.
 
 
-##👨‍💻 Built By
+## 👨‍💻 Built By
 
 Sai Vivek
 Final-year B.Tech student, cloud & DevOps enthusiast
