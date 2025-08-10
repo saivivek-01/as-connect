@@ -3,6 +3,7 @@
 **AS-connect** is a vendor lock-free, private cloud–based alumni portal that showcases a scalable, privacy-respecting deployment model, built entirely on open-source technologies.  
 It was inspired by professional alumni networks (like IITs and Ivy League platforms) and built to highlight full control over cloud infrastructure without relying on PaaS or SaaS lock-in.
 
+🚀 Live at: https://asconnect.begetter.me
 ---
 
 ##  Highlights
